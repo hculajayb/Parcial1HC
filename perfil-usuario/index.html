@@ -12,14 +12,15 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header class="bg-dark text-white py-4 shadow-sm">
-    <div class="container d-flex align-items-center justify-content-between gap-3 flex-wrap">
-      <h1>Mi Perfil</h1>
-      <p class="lead">Desarrollador Junior 🙃</p>
-      <a href="demo-api-rest.html" class="btn btn-primary me-2">Ver API Demo</a>
-      <button id="welcomeBtn" class="btn btn-outline-primary">Mostrar Bienvenida</button>
-    </div>
-  </header>
+  <div class="container my-4">
+    <header class="bg-dark text-white py-4 shadow-sm">
+      <div class="container d-flex align-items-center justify-content-between gap-3 flex-wrap">
+        <h1>Mi Perfil</h1>
+        <p class="lead">Desarrollador Junior 🙃</p>
+        <a href="demo-api-rest.html" class="btn btn-primary me-2">Ver API Demo</a>
+        <button id="welcomeBtn" class="btn btn-outline-primary">Mostrar Bienvenida</button>
+      </div>
+    </header>
 
   <div class="row">
       <div class="col-md-4">
@@ -60,7 +61,48 @@
                         <p>Me especializo en infraestructura tecnológica y estoy desarronando un sitio web.</p>
                         <a href="https://github.com/hculajayb" class="btn btn-outline-dark" target="_blank">Mi GitHub</a>
                     </div>
-                </div>  
+        </div>  
+            <div class="card mb-4">
+              <div class="card-header">
+                  <h3>Experiencia Laboral</h3>
+              </div>
+              <div class="card-body">
+                  <ol class="experience-list">
+                      <li>Jefe de infraestructura tecnológica (2022-presente)</li>
+                      <li>Coordinador de infraestructura (2018-2022)</li>
+                  </ol>
+              </div>
+          </div>
+
+          <div class="card mb-4">
+              <div class="card-header">
+                  <h3>Educación</h3>
+              </div>
+              <div class="card-body">
+                  <table class="table table-striped education-table">
+                      <thead>
+                          <tr>
+                              <th>Año</th>
+                              <th>Institución</th>
+                              <th>Título</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>2025</td>
+                              <td>Universidad Mariano Gálgez de Guatemala</td>
+                              <td>Ingeniería en Sistemas</td>
+                          </tr>
+                          <tr>
+                              <td>2017</td>
+                              <td>Universidad Galileo de Guatemala</td>
+                              <td>Certificación CCNA</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+        </div>
       </div>
   </div>
 
